@@ -1,0 +1,81 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Graphics/Other/Big_Bottom_Typeface_Normal.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Graphics/Other/Banner.png" type="Texture" id=2]
+[ext_resource path="res://Graphics/Player/jump.png" type="Texture" id=3]
+[ext_resource path="res://TitleScreen/TitleScreen.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 1 )
+
+[node name="TitleScreen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.976471, 0.941176, 0.882353, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -282.194
+margin_top = -238.434
+margin_right = 797.806
+margin_bottom = 841.566
+rect_scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 398.791
+margin_top = 66.3433
+margin_right = 883.791
+margin_bottom = 313.343
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -63.0
+margin_top = -88.0
+margin_right = 63.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.286275, 0.156863, 0.0588235, 1 )
+text = "High Score:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -116.0
+margin_top = 186.359
+margin_right = 116.0
+margin_bottom = 274.359
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.286275, 0.156863, 0.0588235, 1 )
+text = "Press space to start"
+__meta__ = {
+"_edit_use_anchors_": false
+}
