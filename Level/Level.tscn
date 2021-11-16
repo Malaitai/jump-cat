@@ -8,7 +8,7 @@ extents = Vector2( 93.5, 30 )
 [node name="Level" type="Node"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 199, 527 )
+position = Vector2( 196, 520 )
 
 [node name="Floor" type="StaticBody2D" parent="."]
 position = Vector2( 198, 631 )
