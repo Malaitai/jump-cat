@@ -13,7 +13,7 @@ script = ExtResource( 3 )
 position = Vector2( 196, 520 )
 
 [node name="Floor" type="StaticBody2D" parent="."]
-position = Vector2( 198, 631 )
+position = Vector2( 198, 629 )
 __meta__ = {
 "_edit_group_": true
 }
