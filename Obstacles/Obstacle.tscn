@@ -8,7 +8,7 @@ radius = 83.0
 height = 84.0
 
 [node name="Obstacle" type="Area2D"]
-position = Vector2( 649, 254 )
+position = Vector2( 1409, 540 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
